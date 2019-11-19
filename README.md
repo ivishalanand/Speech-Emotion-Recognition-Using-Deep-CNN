@@ -105,6 +105,3 @@ from emotion_recognition import plot_histograms
 plot_histograms(classifiers=True)
 ```
 **Output:**
-
-<img src="images/Figure.png">
-<p align="center">A Histogram shows different algorithms metric results on different data sizes as well as time consumed to train/predict.</p>
