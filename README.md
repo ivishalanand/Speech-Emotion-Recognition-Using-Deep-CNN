@@ -95,13 +95,3 @@ print("Prediction:", rec.predict("data/tess_ravdess/validation/Actor_25/25_01_01
 Prediction: neutral
 Prediction: sad
 ```
-
-
-## Plotting Histograms
-This will only work if grid search is performed.
-```python
-from emotion_recognition import plot_histograms
-# plot histograms on different classifiers
-plot_histograms(classifiers=True)
-```
-**Output:**
