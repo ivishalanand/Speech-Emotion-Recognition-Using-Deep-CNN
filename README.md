@@ -1,4 +1,16 @@
 # Speech Emotion Recognition
+
+## Credits
+This repository is built on [x4nth055/emotion-recognition-using-speech](https://github.com/x4nth055/emotion-recognition-using-speech) (MIT). `emotion_recognition.py`, `deep_emotion_recognition.py`, `grid_search.py`, `parameters.py`, `test.py`, `features/`, `results/`, `images/` and most of this README come from that project unchanged; `clear.py` is a truncated copy of its `emotion_recognition.py`.
+
+The CNN code in `cnn_emotion_recognition.py` and `CNN_emotion_recognition.ipynb` is adapted from Reza Chu's notebook, itself based on [MiteshPuthran/Speech-Emotion-Analyzer](https://github.com/MiteshPuthran/Speech-Emotion-Analyzer) (MIT).
+
+This fork adds:
+- the CNN notebook (Colab) and its exported script, with changes to the Conv1D model architecture
+- `requirements.txt` pinned for the CNN code
+
+See [LICENSE](LICENSE).
+
 ## Introduction
 - This repository handles building and training Speech Emotion Recognition System.
 - The basic idea behind this tool is to build and train/test a suited machine learning ( as well as deep learning ) algorithm that could recognize and detects human emotions from speech.
